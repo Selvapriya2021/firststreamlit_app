@@ -1,3 +1,4 @@
+import pandas
 import streamlit
 streamlit.title('My First Project')
 streamlit.header('Breakfast Menu')
