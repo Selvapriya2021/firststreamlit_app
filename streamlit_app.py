@@ -30,7 +30,7 @@ try:
     streamlit.dataframe(back_from_function)
 except URLError as e:
   streamlit.error()
-streamlit.header("The fruit load list contains:")
+streamlit.header("View our Fruit List - Add your Favourites!")
 
 # snowflake related functions  
 def get_fruit_load_list():
